@@ -18,9 +18,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve"
   },
   "include": [
     "src"
+  ],
+  "files": [
+    "src/styles/styles.d.ts"
   ]
 }
